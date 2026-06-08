@@ -1,0 +1,8 @@
+# KiCad local history and backup artifacts
+**/.history/
+fp-info-cache
+*-backups/
+
+# Python cache artifacts
+__pycache__/
+*.pyc
