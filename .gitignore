@@ -1,7 +1,25 @@
-# KiCad local history and backup artifacts
+# KiCad 6+ auto-save and lock files
+*_autosave.kicad_pcb
+*_autosave.kicad_sch
+*.lck
+~*.lck
+
+# KiCad 6+ project local settings
+*.kicad_prl
+
+# KiCad 6+ backup files
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad 5 and older backup files
+*.bak
+*.bck
+*-bak
+
+# KiCad local history
 **/.history/
 fp-info-cache
-*-backups/
 
 # Python cache artifacts
 __pycache__/
