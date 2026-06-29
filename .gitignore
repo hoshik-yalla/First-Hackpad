@@ -24,3 +24,10 @@ fp-info-cache
 # Python cache artifacts
 __pycache__/
 *.pyc
+
+# PCB Design History (not needed in repo)
+pcb_design_history/
+
+# IDE and OS files
+.DS_Store
+.vscode/
