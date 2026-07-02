@@ -835,6 +835,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e7f002-4a41-42c3-bec9-2f32c19795b7")
+	)
+	(wire
+		(pts
 			(xy 190.5 118.11) (xy 190.5 129.54)
 		)
 		(stroke
@@ -925,16 +935,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 129.54) (xy 172.72 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a254adc-4142-412c-9316-75e48ea4f099")
-	)
-	(wire
-		(pts
 			(xy 109.22 120.65) (xy 102.87 120.65)
 		)
 		(stroke
@@ -945,6 +945,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef2ed7e-7ebd-45d5-a613-e202fe620892")
+	)
+	(wire
+		(pts
 			(xy 102.87 120.65) (xy 102.87 85.09)
 		)
 		(stroke
@@ -952,6 +962,16 @@
 			(type default)
 		)
 		(uuid "991fe375-6bc7-4917-8cd8-26767196d47e")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 190.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2bd77f-ab55-4c7c-8c69-72e8eaa925ac")
 	)
 	(wire
 		(pts
@@ -972,26 +992,6 @@
 			(type default)
 		)
 		(uuid "b8dbcee1-61eb-4bea-b7e3-8bde01000abf")
-	)
-	(wire
-		(pts
-			(xy 166.37 107.95) (xy 172.72 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86d627e-2ade-4d9d-b58b-28cab1b8802d")
-	)
-	(wire
-		(pts
-			(xy 182.88 107.95) (xy 190.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab36946-cdbc-44ec-9db8-0220d558dc31")
 	)
 	(wire
 		(pts
@@ -1035,13 +1035,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 129.54) (xy 190.5 129.54)
+			(xy 166.37 107.95) (xy 172.72 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d999adfb-0868-4322-a834-b9509f5c5728")
+		(uuid "d7f85302-7701-4fe9-9609-75aefe07bcd3")
 	)
 	(wire
 		(pts
@@ -1153,7 +1153,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 107.95 0)
+		(at 177.8 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1164,7 +1164,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb72643-65ae-48b2-9071-ee9c548f34e6")
 		(property "Reference" "SW3"
-			(at 177.8 100.33 0)
+			(at 177.8 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1174,7 +1174,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 177.8 102.87 0)
+			(at 177.8 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1184,7 +1184,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 177.8 102.87 0)
+			(at 177.8 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,7 +1195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 102.87 0)
+			(at 177.8 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 107.95 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1312,7 +1312,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 129.54 0)
+		(at 177.8 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1323,7 +1323,7 @@
 		(fields_autoplaced yes)
 		(uuid "62d00b49-9e0e-4a65-8ab7-3b711ad6e30f")
 		(property "Reference" "SW1"
-			(at 177.8 121.92 0)
+			(at 177.8 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 177.8 124.46 0)
+			(at 177.8 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1343,7 +1343,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 177.8 124.46 0)
+			(at 177.8 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 124.46 0)
+			(at 177.8 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1365,7 +1365,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 129.54 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
