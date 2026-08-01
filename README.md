@@ -9,7 +9,4 @@ Key 1: Ctrl+Shift+P - Command Palette
 Key 2: Ctrl+Alt+I - Copilot Chat
 Key 3: Ctrl+Shift+` - Terminal
 
-## Firmware Installation
-1. Enter Bootloader Mode
-    - Press and hold the boot & reset button until the led blinks or the board is detected by your device.
-2.  
+Please follow the readme in 'firmware' folder for installation instructions
