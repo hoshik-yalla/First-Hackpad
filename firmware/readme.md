@@ -1,7 +1,5 @@
 # codebud_v1
 
-![codebud_v1](imgur.com image replace me!)
-
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Hoshik Yalla](https://github.com/hoshik-yalla)

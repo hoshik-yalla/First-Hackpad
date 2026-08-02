@@ -1,4 +1,5 @@
 # ⌨️ First-Hackpad: A 3-Key Mechanical Macro Pad
+![codebud_v1](pcb_design\progress-pics\image.png)
 
 A compact, custom-designed three-key mechanical macro pad built using the Seeed Studio XIAO RP2040 microcontroller. This project helps learn the basics of PCB design, schematic layout, and planning while turning the idea into a simple hackpad.
 
